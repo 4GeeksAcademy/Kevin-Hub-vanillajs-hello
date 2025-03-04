@@ -32,12 +32,10 @@ const generaterandomcard = () => {
   else if(randomIcon == "♥") {
     iconDiv.style.color = "red"
   }
-  else if(randomIcon == "♣") {
+  else {
     iconDiv.style.color = "black"
   }
-  else if(randomIcon == "♠") {
-    iconDiv.style.color = "black"
-  }
+  
 // Code for top icon
   if(randomIcon == "♦") {
     icondiv.style.color = "red"
@@ -45,13 +43,9 @@ const generaterandomcard = () => {
   else if(randomIcon == "♥") {
     icondiv.style.color = "red"
   }
-  else if(randomIcon == "♣") {
+  else {
     icondiv.style.color = "black"
   }
-  else if(randomIcon == "♠") {
-    icondiv.style.color = "black"
-  }
-
 
   document.querySelector(".top").innerHTML = randomIcon
   document.querySelector(".number").innerHTML = randomNumber
